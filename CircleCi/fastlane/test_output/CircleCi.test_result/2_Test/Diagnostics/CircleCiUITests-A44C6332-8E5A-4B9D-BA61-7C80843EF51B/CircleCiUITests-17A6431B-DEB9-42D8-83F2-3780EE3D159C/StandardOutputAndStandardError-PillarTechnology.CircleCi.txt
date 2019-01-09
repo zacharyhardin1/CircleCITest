@@ -1,2 +1,0 @@
-Standard output and standard error from PillarTechnology.CircleCi with process ID 25939 beginning at 09:54:43.120
-
