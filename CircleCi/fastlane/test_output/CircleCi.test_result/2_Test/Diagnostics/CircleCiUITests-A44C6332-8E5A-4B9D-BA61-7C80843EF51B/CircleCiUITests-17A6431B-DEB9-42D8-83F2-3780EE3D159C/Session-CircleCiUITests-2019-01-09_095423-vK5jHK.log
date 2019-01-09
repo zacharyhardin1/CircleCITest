@@ -1,0 +1,1634 @@
+09:54:23.543 xcodebuild[25582:1410485] Beginning test session CircleCiUITests-DFCB7140-FCA3-4069-BB73-C17554D7ADA8 at 2019-01-09 09:54:23.542 with Xcode 10B61 on target <DVTiPhoneSimulator: 0x7ffa523cef00> {
+		SimDevice: iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Shutdown)
+} (12.1 (16B91))
+09:54:23.544 xcodebuild[25582:1410485] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-workspace
+./CircleCi.xcworkspace
+-scheme
+CircleCi
+-destination
+platform=iOS Simulator,id=E02B8BF8-9E71-4889-AB2A-B45ED7A37F82
+-derivedDataPath
+/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk
+-resultBundlePath
+./fastlane/test_output/CircleCi.test_result
+build
+test
+09:54:23.544 xcodebuild[25582:1410485] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+09:54:23.549 xcodebuild[25582:1410485] Test standard output and standard error is at /Users/zacharyhardin/Desktop/CircleCITest/CircleCi/fastlane/test_output/CircleCi.test_result/2_Test/Diagnostics/CircleCiUITests-A44C6332-8E5A-4B9D-BA61-7C80843EF51B/CircleCiUITests-17A6431B-DEB9-42D8-83F2-3780EE3D159C/StandardOutputAndStandardError.txt
+09:54:23.562 xcodebuild[25582:1410485] Setting up test runner session
+09:54:23.568 xcodebuild[25582:1410485] Launch session started.
+09:54:23.634 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+09:54:23.635 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.635 xcodebuild[25582:1412592] Got a sim device notification for iPhone 8: {
+    notification = "availableDevices_changed";
+}
+09:54:23.636 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1412595] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1412592] Got a sim device notification for iPhone 8: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.636 xcodebuild[25582:1412592] Sim iPhone 8 state changed to 2
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.637 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.638 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.639 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.639 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.639 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.639 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:54:23.639 xcodebuild[25582:1412592] Got a sim device notification for iPhone 8: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.639 xcodebuild[25582:1412595] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.640 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.641 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.642 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.643 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.643 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.643 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.643 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:23.768 xcodebuild[25582:1412595] Got a sim device notification for iPhone 8: {
+    notification = "availableDevices_changed";
+}
+09:54:23.768 xcodebuild[25582:1412595] Got a sim device notification for iPhone 8: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.769 xcodebuild[25582:1412595] Sim iPhone 8 state changed to 3
+09:54:23.769 xcodebuild[25582:1412595] Sim iPhone 8: Unregistering for sim device notification with token 5
+09:54:23.769 xcodebuild[25582:1412595] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:54:23.770 xcodebuild[25582:1410524] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> simulator was claimed by LaunchSessionClaim_0x7ffa52786630
+09:54:23.771 xcodebuild[25582:1412594] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.801 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+09:54:23.802 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.802 xcodebuild[25582:1412592] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> simulator was claimed by LaunchSessionClaim_0x7ffa52786630
+09:54:23.803 xcodebuild[25582:1412592] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Registered for sim device notification, got token 8
+09:54:23.803 xcodebuild[25582:1410524] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Unregistering for sim device notification with token 8
+09:54:23.804 xcodebuild[25582:1410524] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Installing app at path: /Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator/CircleCiUITests-Runner.app and options: (null)
+09:54:23.805 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.806 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.807 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.807 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.807 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.808 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.809 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.809 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.809 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.810 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.810 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.810 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.810 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.810 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.811 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.811 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.811 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.811 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.811 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.812 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.812 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.812 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.812 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.813 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.814 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.814 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:54:23.821 xcodebuild[25582:1412595] Sim iPhone 8 is booted but getenv returned nil for test connection socket path; getenv error: Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory".
+ Will retry in 1s (1 attempts so far).
+09:54:24.936 xcodebuild[25582:1412573] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:54:24.943 xcodebuild[25582:1412573] Sim iPhone 8 has testmanagerd socket at /private/tmp/com.apple.launchd.8XMzkz9Kjn/com.apple.testmanagerd.unix-domain.socket
+09:54:24.943 xcodebuild[25582:1412573] Validating test connection socket path (/private/tmp/com.apple.launchd.8XMzkz9Kjn/com.apple.testmanagerd.unix-domain.socket)
+09:54:24.943 xcodebuild[25582:1412573] Constructing transport for test connection socket
+09:54:24.943 xcodebuild[25582:1412573] Connected socket 29 to testmanagerd for Sim iPhone 8
+09:54:24.944 xcodebuild[25582:1412573] Received connection for test runner session
+09:54:24.944 xcodebuild[25582:1412573] Listening for proxy connection request from the test bundle
+09:54:24.945 xcodebuild[25582:1410485] Test runner session acquired connection.
+09:54:24.945 xcodebuild[25582:1410485] Waiting for test process to launch.
+09:54:24.947 xcodebuild[25582:1412573] Initiating session with identifier: DFCB7140-FCA3-4069-BB73-C17554D7ADA8
+09:54:32.268 xcodebuild[25582:1412596] Got reply to session initiation request with identifier DFCB7140-FCA3-4069-BB73-C17554D7ADA8 (result:error): 29: (null)
+09:54:36.337 xcodebuild[25582:1410524] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Installed app at path: /Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator/CircleCiUITests-Runner.app and options: (null)
+09:54:36.338 xcodebuild[25582:1410524] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Registered for sim device notification, got token 10
+09:54:36.338 xcodebuild[25582:1412594] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Unregistering for sim device notification with token 10
+09:54:37.049 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.049 xcodebuild[25582:1412595] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.049 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.049 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.050 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.051 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.051 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.051 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.051 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.051 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.051 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.051 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.052 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.052 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.052 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.052 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.052 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.052 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.052 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.053 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.054 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.251 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.251 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.251 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.251 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.251 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.251 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.252 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.252 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.252 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.252 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.252 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.253 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.253 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.253 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.253 xcodebuild[25582:1412593] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.253 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.253 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.253 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.254 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.254 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.254 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.254 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.254 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.254 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.255 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.255 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.255 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.255 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.255 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.255 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.256 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.256 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.256 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.256 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.256 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.2589329481124878\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.766 xcodebuild[25582:1410485] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.766 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.766 xcodebuild[25582:1412593] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.766 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.766 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.767 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.767 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.767 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.767 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.767 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.768 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.768 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.768 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.768 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.768 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.768 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.768 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.769 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.769 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.769 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.769 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.769 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.769 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.770 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.770 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.770 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.770 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.770 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.770 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.770 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.771 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.771 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.771 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.771 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.771 xcodebuild[25582:1410485] /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 14.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.9790799617767334\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4 (WaitingOnSystemApp), elapsed = 13.000000, isTerminal = 0, info = {\n    DataMigrationElapsedTime = \"0.4609169960021973\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    device = "iPhone 8 (E02B8BF8-9E71-4889-AB2A-B45ED7A37F82, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+09:54:37.985 xcodebuild[25582:1410524] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Launching app with identifier: com.apple.test.CircleCiUITests-Runner and options: {
+    "activate_suspended" = 1;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FRAMEWORK_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator:";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCTestConfigurationFilePath = "/Users/zacharyhardin/Desktop/CircleCITest/CircleCi/fastlane/test_output/CircleCi.test_result/2_Test/Diagnostics/CircleCiUITests-A44C6332-8E5A-4B9D-BA61-7C80843EF51B/CircleCiUITests-17A6431B-DEB9-42D8-83F2-3780EE3D159C/LaunchSessions/DFCB7140-FCA3-4069-BB73-C17554D7ADA8/remote-container/tmp/CircleCiUITests-DFCB7140-FCA3-4069-BB73-C17554D7ADA8.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys005";
+    stdout = "/dev/ttys005";
+    "wait_for_debugger" = 0;
+}
+09:54:38.081 xcodebuild[25582:1412592] E02B8BF8-9E71-4889-AB2A-B45ED7A37F82: Launched app with identifier: com.apple.test.CircleCiUITests-Runner (pid = 25934)
+09:54:38.081 xcodebuild[25582:1412592] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> tracking pid 25934
+09:54:38.081 xcodebuild[25582:1412592] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> checking to see if pid 25934 is valid: kill(pid, 0) = 0 (YES, it's still running)
+09:54:38.082 xcodebuild[25582:1410485] Test process runnable PID is 25934.
+2019-01-09 09:54:38.504043-0600 CircleCiUITests-Runner[25934:1414889] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+2019-01-09 09:54:38.562893-0600 CircleCiUITests-Runner[25934:1414889] Running tests...
+09:54:38.750 xcodebuild[25582:1412596] Handling proxy channel request from test runner
+09:54:38.751 xcodebuild[25582:1412596] Test runner is ready, running protocol 29, requires at least version 7. Control framework is running 29 and requires at least 7
+09:54:38.751 xcodebuild[25582:1410485] Test runner session successfully initiated.
+09:54:38.751 xcodebuild[25582:1410485] Whitelisting test process ID 25934
+09:54:38.782 xcodebuild[25582:1410485] Got whitelisting response from test daemon: Success
+09:54:38.782 xcodebuild[25582:1410485] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    "CircleCiUITests-Runner",
+    backboardd,
+    xctest,
+    CircleCi
+)
+09:54:38.823 xcodebuild[25582:1410485] Telling test runner to start executing tests.
+09:54:38.601 CircleCiUITests-Runner[25934:1414889] Linked XCTest.framework from /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Containers/Bundle/Application/1826D356-E7E6-49DD-94C1-AA197D99643C/CircleCiUITests-Runner.app/Frameworks/XCTest.framework/XCTest, built with Xcode 1010(10B43a), modified on Wednesday, January 9, 2019 at 9:47:59 AM Central Standard Time
+XCTest.framework bundle version: 14460.20
+09:54:38.602 CircleCiUITests-Runner[25934:1414889] System uptime: 15
+09:54:38.602 CircleCiUITests-Runner[25934:1414889] Process arguments: (
+    "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Containers/Bundle/Application/1826D356-E7E6-49DD-94C1-AA197D99643C/CircleCiUITests-Runner.app/CircleCiUITests-Runner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+09:54:38.603 CircleCiUITests-Runner[25934:1414889] Process environment: {
+    "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+    "CA_DEBUG_TRANSACTIONS" = 0;
+    "CFFIXED_USER_HOME" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Containers/Data/Application/48F6EB12-E086-4BA4-8CEE-BA535A74F343";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.GK41vRN87C/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator:";
+    "DYLD_LIBRARY_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Containers/Data/Application/48F6EB12-E086-4BA4-8CEE-BA535A74F343";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/tmp/com.apple.CoreSimulator.SimDevice.E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Library/Application Support/Simulator/extended_display.plist";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.PzN61qqeDt/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1547049263;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 8.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 8";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/zacharyhardin";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/zacharyhardin/Library/Logs/CoreSimulator/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1334;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 750;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone10,4";
+    "SIMULATOR_PRODUCT_CLASS" = D20;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 16B91;
+    "SIMULATOR_RUNTIME_VERSION" = "12.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data";
+    "SIMULATOR_UDID" = "E02B8BF8-9E71-4889-AB2A-B45ED7A37F82";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 581.2 - Device: iPhone 8 - Runtime: iOS 12.1 (16B91) - DeviceType: iPhone 8";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.8XMzkz9Kjn/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Containers/Data/Application/48F6EB12-E086-4BA4-8CEE-BA535A74F343/tmp";
+    XCTestConfigurationFilePath = "/Users/zacharyhardin/Desktop/CircleCITest/CircleCi/fastlane/test_output/CircleCi.test_result/2_Test/Diagnostics/CircleCiUITests-A44C6332-8E5A-4B9D-BA61-7C80843EF51B/CircleCiUITests-17A6431B-DEB9-42D8-83F2-3780EE3D159C/LaunchSessions/DFCB7140-FCA3-4069-BB73-C17554D7ADA8/remote-container/tmp/CircleCiUITests-DFCB7140-FCA3-4069-BB73-C17554D7ADA8.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.CircleCiUITests-Runner[0x65f7][25850]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.E02B8BF8-9E71-4889-AB2A-B45ED7A37F82";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator";
+}
+09:54:38.603 CircleCiUITests-Runner[25934:1414889] App Sandbox active: NO
+09:54:38.603 CircleCiUITests-Runner[25934:1414889] Loading test bundle at: file:///Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator/CircleCiUITests-Runner.app/PlugIns/CircleCiUITests.xctest/
+09:54:38.740 CircleCiUITests-Runner[25934:1414889] Finished loading test bundle
+09:54:38.740 CircleCiUITests-Runner[25934:1414889] Readying IDE session
+09:54:38.742 CircleCiUITests-Runner[25934:1414889] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+09:54:38.743 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accac0, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `Exchange protocol versions with daemon`
+09:54:38.746 CircleCiUITests-Runner[25934:1414932] <XCTWaiter: 0x600003accac0, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:38.746 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accac0, state: XCTWaiterStateSucceeded> done waiting
+09:54:38.746 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003accac0, state: XCTWaiterStateInProgress>.
+09:54:38.746 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accac0, state: XCTWaiterStateSucceeded> cleaning up `Exchange protocol versions with daemon`
+09:54:38.746 CircleCiUITests-Runner[25934:1414889] Got daemon protocol version 26
+09:54:38.747 CircleCiUITests-Runner[25934:1414889] Requesting IDE connection transport
+09:54:38.747 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9890, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Transport for IDE session acquired`
+09:54:38.748 CircleCiUITests-Runner[25934:1414932] Creating transport with received transport data
+09:54:38.748 CircleCiUITests-Runner[25934:1414932] <XCTWaiter: 0x600003ac9890, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:38.749 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9890, state: XCTWaiterStateSucceeded> done waiting
+09:54:38.749 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003ac9890, state: XCTWaiterStateInProgress>.
+09:54:38.749 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9890, state: XCTWaiterStateSucceeded> cleaning up `Transport for IDE session acquired`
+09:54:38.749 CircleCiUITests-Runner[25934:1414889] Creating connection with transport <DTXFileDescriptorTransport: 0x6000016cec00>
+09:54:38.750 CircleCiUITests-Runner[25934:1414889] Creating the proxy channel with connection <DTXConnection 0x6000004c4c00 : x1>
+09:54:38.750 CircleCiUITests-Runner[25934:1414889] Creating future for 'IDE session ready for test plan' with timeout 60.00
+09:54:38.750 CircleCiUITests-Runner[25934:1414889] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:29 minimumVersion:7
+09:54:38.750 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9190, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `IDE session ready for test plan`
+09:54:38.751 CircleCiUITests-Runner[25934:1414933] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+09:54:38.824 CircleCiUITests-Runner[25934:1414929] _IDE_startExecutingTestPlanWithProtocolVersion:29
+09:54:38.824 CircleCiUITests-Runner[25934:1414929] <XCTWaiter: 0x600003ac9190, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:38.824 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9190, state: XCTWaiterStateSucceeded> done waiting
+09:54:38.824 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003ac9190, state: XCTWaiterStateInProgress>.
+09:54:38.824 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9190, state: XCTWaiterStateSucceeded> cleaning up `IDE session ready for test plan`
+09:54:38.830 xcodebuild[25582:1410485] Starting test plan, clearing initialization timeout timer.
+09:54:38.830 CircleCiUITests-Runner[25934:1414889] Initializing for UI testing.
+09:54:38.855 CircleCiUITests-Runner[25934:1414889] Linked XCTAutomationSupport.framework from /Users/zacharyhardin/Library/Developer/CoreSimulator/Devices/E02B8BF8-9E71-4889-AB2A-B45ED7A37F82/data/Containers/Bundle/Application/1826D356-E7E6-49DD-94C1-AA197D99643C/CircleCiUITests-Runner.app/Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport, built with Xcode 1010(10B43a), modified on Wednesday, January 9, 2019 at 9:47:59 AM Central Standard Time
+XCTAutomationSupport.framework bundle version: 1
+09:54:38.855 CircleCiUITests-Runner[25934:1414889] Creating future for 'Loading Accessibility' with timeout 70.00
+09:54:38.856 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9910, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: `Loading Accessibility`
+2019-01-09 09:54:39.152150-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unable to look up screen scale
+2019-01-09 09:54:39.152305-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unexpected physical screen orientation
+2019-01-09 09:54:39.172878-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unable to look up screen scale
+09:54:39.176 CircleCiUITests-Runner[25934:1414932] <XCTWaiter: 0x600003ac9910, state: XCTWaiterStateSucceeded>: cancelWaiting
+2019-01-09 09:54:39.179165-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unable to look up screen scale
+2019-01-09 09:54:39.179284-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unexpected physical screen orientation
+09:54:39.186 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9910, state: XCTWaiterStateSucceeded> done waiting
+09:54:39.186 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003ac9910, state: XCTWaiterStateInProgress>.
+09:54:39.186 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac9910, state: XCTWaiterStateSucceeded> cleaning up `Loading Accessibility`
+09:54:39.186 CircleCiUITests-Runner[25934:1414889] Creating future for 'Enable gathering of localized strings' with timeout 70.00
+09:54:39.187 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: `Enable gathering of localized strings`
+09:54:39.187 CircleCiUITests-Runner[25934:1414932] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:39.187 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateSucceeded> done waiting
+09:54:39.188 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003accc20, state: XCTWaiterStateInProgress>.
+09:54:39.188 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateSucceeded> cleaning up `Enable gathering of localized strings`
+09:54:39.188 CircleCiUITests-Runner[25934:1414889] Creating future for 'Set AX timeout to 60.00s' with timeout 65.00
+09:54:39.189 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac1a30, state: XCTWaiterStateSucceeded> entering wait loop for 65.00s with expectations: `Set AX timeout to 60.00s`
+09:54:39.189 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac1a30, state: XCTWaiterStateSucceeded> done waiting
+09:54:39.189 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003ac1a30, state: XCTWaiterStateInProgress>.
+09:54:39.189 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003ac1a30, state: XCTWaiterStateSucceeded> cleaning up `Set AX timeout to 60.00s`
+09:54:39.190 CircleCiUITests-Runner[25934:1414889] Creating future for 'Registering for kAXUserTestingNotification' with timeout 65.00
+09:54:39.191 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXUserTestingNotification`
+09:54:39.191 CircleCiUITests-Runner[25934:1414933] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:39.192 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateSucceeded> done waiting
+09:54:39.192 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003accc20, state: XCTWaiterStateInProgress>.
+09:54:39.192 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accc20, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXUserTestingNotification`
+09:54:39.193 CircleCiUITests-Runner[25934:1414889] Creating future for 'Registering for kAXAlertNotification' with timeout 65.00
+09:54:39.193 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accbe0, state: XCTWaiterStateSucceeded> entering wait loop for 65.00s with expectations: `Registering for kAXAlertNotification`
+09:54:39.193 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accbe0, state: XCTWaiterStateSucceeded> done waiting
+09:54:39.193 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003accbe0, state: XCTWaiterStateSucceeded>.
+09:54:39.193 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003accbe0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXAlertNotification`
+09:54:39.194 CircleCiUITests-Runner[25934:1414889] Creating future for 'Registering for kAXPidStatusChangedNotification' with timeout 65.00
+09:54:39.194 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adc6b0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXPidStatusChangedNotification`
+09:54:39.194 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adc6b0, state: XCTWaiterStateSucceeded> done waiting
+09:54:39.194 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003adc6b0, state: XCTWaiterStateInProgress>.
+09:54:39.194 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adc6b0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXPidStatusChangedNotification`
+09:54:39.194 CircleCiUITests-Runner[25934:1414889] Creating future for 'Request background assertion for test process' with timeout 30.00
+09:54:39.195 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adc720, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request background assertion for test process`
+09:54:39.196 CircleCiUITests-Runner[25934:1414935] Got reply for background assertion for 25934, acquired: YES.
+09:54:39.197 CircleCiUITests-Runner[25934:1414935] <XCTWaiter: 0x600003adc720, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:39.197 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adc720, state: XCTWaiterStateSucceeded> done waiting
+09:54:39.197 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003adc720, state: XCTWaiterStateInProgress>.
+09:54:39.197 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adc720, state: XCTWaiterStateSucceeded> cleaning up `Request background assertion for test process`
+09:54:39.198 CircleCiUITests-Runner[25934:1414889] Test runner is already executing in the background.
+09:54:39.198 CircleCiUITests-Runner[25934:1414889] Done initializing for UI testing.
+09:54:39.199 CircleCiUITests-Runner[25934:1414889] Entering test execution event loop
+09:54:39.199 CircleCiUITests-Runner[25934:1414889] -[XCTRunnerIDESession testBundleWillStart:]
+09:54:39.200 CircleCiUITests-Runner[25934:1414889] Loading test suite...
+09:54:39.281 CircleCiUITests-Runner[25934:1414889] Finished loading test suite, took 0.082s
+09:54:39.281 CircleCiUITests-Runner[25934:1414889] Running suite...
+Test Suite 'All tests' started at 2019-01-09 09:54:39.281
+09:54:39.282 CircleCiUITests-Runner[25934:1414889] -[XCTRunnerIDESession testSuiteWillStart:]
+09:54:39.283 xcodebuild[25582:1410485] _XCT_testSuite:All tests didStartAt:2019-01-09 15:54:39 +0000
+09:54:43.280 xcodebuild[25582:1414824] (LOG ARBITER) Rotating message buffer with 409 messages.
+09:54:46.273 xcodebuild[25582:1412592] (LOG ARBITER) Rotating message buffer with 89 messages.
+09:54:46.579 xcodebuild[25582:1412594] (LOG ARBITER) Dumping buffered message data; 498 messages.
+    t =     7.06s     Checking `Expect predicate `exists == 1` for object "Hello World" StaticText`
+09:54:46.339 CircleCiUITests-Runner[25934:1414889] -[CircleCiUITests testExample] started activity <XCActivityRecord: 0x600001bcecb0> 2019-01-09 15:54:46 +0000: Checking `Expect predicate `exists == 1` for object "Hello World" StaticText`
+09:54:46.341 xcodebuild[25582:1410485] -[CircleCiUITests.CircleCiUITests testExample] will start activity 2B8C8D9D-8638-43CB-8AE9-1E8D0DFA8794:'Checking `Expect predicate `exists == 1` for object "Hello World" StaticText`'
+09:54:46.342 CircleCiUITests-Runner[25934:1414889] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+09:54:46.342 CircleCiUITests-Runner[25934:1414889] Creating future for 'remote query' with timeout 30.00
+09:54:46.343 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003acce10, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `remote query`
+09:54:46.369 CircleCiUITests-Runner[25934:1414933] <XCTWaiter: 0x600003acce10, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:46.369 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003acce10, state: XCTWaiterStateSucceeded> done waiting
+09:54:46.369 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003acce10, state: XCTWaiterStateInProgress>.
+09:54:46.369 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003acce10, state: XCTWaiterStateSucceeded> cleaning up `remote query`
+09:54:46.369 CircleCiUITests-Runner[25934:1414889] results tree:
+Application, pid: 25939, label: 'CircleCi'
+  Window (Main)
+    Other
+      StaticText, label: 'Hello World'
+09:54:46.369 CircleCiUITests-Runner[25934:1414889] matches: {(
+    StaticText, label: 'Hello World'
+)}
+09:54:46.370 xcodebuild[25582:1410485] -[CircleCiUITests.CircleCiUITests testExample] did finish activity 2B8C8D9D-8638-43CB-8AE9-1E8D0DFA8794:'Checking `Expect predicate `exists == 1` for object "Hello World" StaticText`'
+09:54:46.369 CircleCiUITests-Runner[25934:1414889] remote elements: {(
+)}
+09:54:46.369 CircleCiUITests-Runner[25934:1414889] -[CircleCiUITests testExample] finished activity <XCActivityRecord: 0x600001bcecb0> 2019-01-09 15:54:46 +0000: Checking `Expect predicate `exists == 1` for object "Hello World" StaticText` (0.030424s)
+09:54:46.370 CircleCiUITests-Runner[25934:1414929] <XCTWaiter: 0x600003adf2d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:46.370 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adf2d0, state: XCTWaiterStateSucceeded> done waiting
+09:54:46.370 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003adf2d0, state: XCTWaiterStateInProgress>.
+09:54:46.371 xcodebuild[25582:1410485] -[CircleCiUITests.CircleCiUITests testExample] did finish activity 5FA29865-368A-495F-9FCF-2716AABEEBF4:'Waiting 2.0s for "Hello World" StaticText to exist'
+09:54:46.370 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adf2d0, state: XCTWaiterStateSucceeded> cleaning up `Expect predicate `exists == 1` for object "Hello World" StaticText`
+09:54:46.370 CircleCiUITests-Runner[25934:1414889] -[CircleCiUITests testExample] finished activity <XCActivityRecord: 0x600001bd2cb0> 2019-01-09 15:54:45 +0000: Waiting 2.0s for "Hello World" StaticText to exist (1.05171s)
+    t =     7.09s Tear Down
+09:54:46.371 CircleCiUITests-Runner[25934:1414889] -[CircleCiUITests testExample] started activity <XCActivityRecord: 0x600001bce8a0> 2019-01-09 15:54:46 +0000: Tear Down
+09:54:46.372 xcodebuild[25582:1410485] -[CircleCiUITests.CircleCiUITests testExample] will start activity 2114875D-8BE1-47AA-ADF5-F7D6187C708D:'Tear Down'
+09:54:46.372 CircleCiUITests-Runner[25934:1414889] -[CircleCiUITests testExample] finished activity <XCActivityRecord: 0x600001bce8a0> 2019-01-09 15:54:46 +0000: Tear Down (0.000473976s)
+09:54:46.372 xcodebuild[25582:1410485] -[CircleCiUITests.CircleCiUITests testExample] did finish activity 2114875D-8BE1-47AA-ADF5-F7D6187C708D:'Tear Down'
+09:54:46.372 CircleCiUITests-Runner[25934:1414933] Monitor: termination is being tracked for PillarTechnology.CircleCi (pid:25939)
+09:54:46.372 CircleCiUITests-Runner[25934:1414889] KVO change: checked status of Expect value of 'applicationState' of PillarTechnology.CircleCi (pid:25939) to be '1': fulfill=0
+09:54:46.372 CircleCiUITests-Runner[25934:1414889] KVO change: checked status of Expect value of 'applicationState' of PillarTechnology.CircleCi (pid:25939) to be '1': fulfill=0
+09:54:46.372 CircleCiUITests-Runner[25934:1414889] Monitor: waiting for state changes to launched application(s): PillarTechnology.CircleCi (pid:25939)
+09:54:46.372 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adf2e0, state: XCTWaiterStateInProgress> entering wait loop for 0.20s with expectations: `Expect change to state of PillarTechnology.CircleCi (pid:25939)`
+09:54:46.577 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adf2e0, state: XCTWaiterStateInProgress> done waiting
+09:54:46.577 CircleCiUITests-Runner[25934:1414889] Canceling watchdog for <XCTWaiter: 0x600003adf2e0, state: XCTWaiterStateInProgress>.
+Test Case '-[CircleCiUITests.CircleCiUITests testExample]' passed (7.294 seconds).
+09:54:46.577 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adf2e0, state: XCTWaiterStateSucceeded> cleaning up `Expect change to state of PillarTechnology.CircleCi (pid:25939)`
+09:54:46.577 CircleCiUITests-Runner[25934:1414889] cleaning up Expect change to state of PillarTechnology.CircleCi (pid:25939)
+09:54:46.578 xcodebuild[25582:1410485] _XCT_testCaseDidFinishForTestClass:CircleCiUITests.CircleCiUITests method:testExample withStatus:passed duration:7.293653011322021
+Test Suite 'CircleCiUITests' passed at 2019-01-09 09:54:46.578.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.294 (7.295) seconds
+09:54:46.577 CircleCiUITests-Runner[25934:1414889] Monitor: done waiting for state changes to launched application(s)
+09:54:46.577 CircleCiUITests-Runner[25934:1414889] -[XCTRunnerIDESession testCaseDidFinish:]
+09:54:46.578 CircleCiUITests-Runner[25934:1414889] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'CircleCiUITests.xctest' passed at 2019-01-09 09:54:46.579.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.294 (7.297) seconds
+Test Suite 'All tests' passed at 2019-01-09 09:54:46.580.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.294 (7.299) seconds
+09:54:46.586 xcodebuild[25582:1410485] _XCT_testSuite:CircleCiUITests didFinishAt:2019-01-09 15:54:46 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:7.293653011322021 totalDuration:7.294968962669373
+09:54:46.579 CircleCiUITests-Runner[25934:1414889] Activity statistics for CircleCiUITests:
+09:54:46.579 CircleCiUITests-Runner[25934:1414889] 1.14s : Other
+09:54:46.579 CircleCiUITests-Runner[25934:1414889] 0.25s : Wait for PillarTechnology.CircleCi to idle
+09:54:46.579 CircleCiUITests-Runner[25934:1414889] 5.69s : Launch PillarTechnology.CircleCi
+09:54:46.579 CircleCiUITests-Runner[25934:1414889] Total time in activities: 7.08s
+09:54:46.586 xcodebuild[25582:1410485] _XCT_testSuite:CircleCiUITests.xctest didFinishAt:2019-01-09 15:54:46 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:7.293653011322021 totalDuration:7.296666979789734
+09:54:46.579 CircleCiUITests-Runner[25934:1414889] -[XCTRunnerIDESession testSuiteDidFinish:]
+09:54:46.580 CircleCiUITests-Runner[25934:1414889] Activity statistics for CircleCiUITests.xctest:
+09:54:46.580 CircleCiUITests-Runner[25934:1414889] 1.14s : Other
+09:54:46.580 CircleCiUITests-Runner[25934:1414889] 0.25s : Wait for PillarTechnology.CircleCi to idle
+09:54:46.586 xcodebuild[25582:1410485] _XCT_testSuite:All tests didFinishAt:2019-01-09 15:54:46 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:7.293653011322021 totalDuration:7.299049973487854
+09:54:46.580 CircleCiUITests-Runner[25934:1414889] 5.69s : Launch PillarTechnology.CircleCi
+09:54:46.580 CircleCiUITests-Runner[25934:1414889] Total time in activities: 7.08s
+09:54:46.580 CircleCiUITests-Runner[25934:1414889] -[XCTRunnerIDESession testSuiteDidFinish:]
+09:54:46.586 xcodebuild[25582:1410485] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] Activity statistics for All tests:
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] 1.14s : Other
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] 0.25s : Wait for PillarTechnology.CircleCi to idle
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] 5.69s : Launch PillarTechnology.CircleCi
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] Total time in activities: 7.08s
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] Finished running suite.
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] Exited test execution event loop
+09:54:46.581 CircleCiUITests-Runner[25934:1414889] Calling completion.
+09:54:46.582 CircleCiUITests-Runner[25934:1414889] <XCTWaiter: 0x600003adc640, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `IDE confirmed the end of session`
+09:54:46.588 xcodebuild[25582:1410485] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> claim LaunchSessionClaim_0x7ffa4f34e870 on simulator was relinquished
+09:54:46.588 xcodebuild[25582:1410485] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> claim LaunchSessionClaim_0x7ffa4f34e870 on simulator was relinquished
+09:54:46.589 xcodebuild[25582:1410485] Observed termination of tracker for token 1 for launch of PillarTechnology.CircleCi at /Users/zacharyhardin/Library/Developer/Xcode/DerivedData/CircleCi-dqmwjoauurnbrzgyujudbpwkhcrk/Build/Products/Debug-iphonesimulator/CircleCi.app
+09:54:46.587 CircleCiUITests-Runner[25934:1414929] Automation session connection to pid 25939 interrupted
+09:54:46.589 CircleCiUITests-Runner[25934:1414929] Got exit status 0 for process with token 1
+09:54:46.589 CircleCiUITests-Runner[25934:1414929] Got exit status 0 for process with token 1 -> PillarTechnology.CircleCi (pid:25939)
+09:54:46.590 CircleCiUITests-Runner[25934:1414933] Stop tracking process with token 1
+09:54:46.590 CircleCiUITests-Runner[25934:1414929] Monitor: set (null) for token 1
+09:54:46.590 CircleCiUITests-Runner[25934:1414933] <XCTWaiter: 0x600003adc640, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:54:46.601 xcodebuild[25582:1410485] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> got death notice for pid 25939, removing from SimulatorSessionMap
+09:54:46.602 xcodebuild[25582:1410485] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> checking to see if pid 25934 is valid: kill(pid, 0) = 0 (YES, it's still running)
+09:54:46.604 xcodebuild[25582:1412665] Closing socket 29 to testmanagerd for Sim iPhone 8
+09:54:46.605 xcodebuild[25582:1410485] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> got death notice for pid 25934, removing from SimulatorSessionMap
+09:54:46.605 xcodebuild[25582:1410485] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> claim LaunchSessionClaim_0x7ffa52786630 on simulator was relinquished
+09:54:46.605 xcodebuild[25582:1410485] 📱<DVTiPhoneSimulator (0x7ffa523cef00), iPhone 8, unknown class, 12.1 (16B91), E02B8BF8-9E71-4889-AB2A-B45ED7A37F82> claim LaunchSessionClaim_0x7ffa52786630 on simulator was relinquished
+09:54:46.856 xcodebuild[25582:1410485] <IDETestOperationCoordinator: 0x7ffa52790d20> finished receiving data from testing launch session
+09:54:46.857 xcodebuild[25582:1410485] <IDETestOperationCoordinator: 0x7ffa52790d20>: _considerFlushingDelegateBlockQueue - nothing to flush
+09:54:46.857 xcodebuild[25582:1410485] _finishWithError:(null)

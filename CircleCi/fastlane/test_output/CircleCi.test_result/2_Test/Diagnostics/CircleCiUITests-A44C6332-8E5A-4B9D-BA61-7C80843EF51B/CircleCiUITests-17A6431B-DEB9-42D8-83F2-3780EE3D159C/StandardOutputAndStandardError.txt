@@ -1,0 +1,31 @@
+2019-01-09 09:54:38.504043-0600 CircleCiUITests-Runner[25934:1414889] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+2019-01-09 09:54:38.562893-0600 CircleCiUITests-Runner[25934:1414889] Running tests...
+2019-01-09 09:54:39.152150-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unable to look up screen scale
+2019-01-09 09:54:39.152305-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unexpected physical screen orientation
+2019-01-09 09:54:39.172878-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unable to look up screen scale
+2019-01-09 09:54:39.179165-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unable to look up screen scale
+2019-01-09 09:54:39.179284-0600 CircleCiUITests-Runner[25934:1414889] [AXMediaCommon] Unexpected physical screen orientation
+Test Suite 'All tests' started at 2019-01-09 09:54:39.281
+Test Suite 'CircleCiUITests.xctest' started at 2019-01-09 09:54:39.283
+Test Suite 'CircleCiUITests' started at 2019-01-09 09:54:39.283
+Test Case '-[CircleCiUITests.CircleCiUITests testExample]' started.
+    t =     0.00s Start Test at 2019-01-09 09:54:39.284
+    t =     0.05s Set Up
+    t =     0.06s     Open PillarTechnology.CircleCi
+    t =     0.08s         Launch PillarTechnology.CircleCi
+    t =     4.77s             Wait for PillarTechnology.CircleCi to idle
+    t =     6.04s Waiting 2.0s for "Hello World" StaticText to exist
+    t =     7.06s     Checking `Expect predicate `exists == 1` for object "Hello World" StaticText`
+    t =     7.09s Tear Down
+Test Case '-[CircleCiUITests.CircleCiUITests testExample]' passed (7.294 seconds).
+Test Suite 'CircleCiUITests' passed at 2019-01-09 09:54:46.578.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.294 (7.295) seconds
+Test Suite 'CircleCiUITests.xctest' passed at 2019-01-09 09:54:46.579.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.294 (7.297) seconds
+Test Suite 'All tests' passed at 2019-01-09 09:54:46.580.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.294 (7.299) seconds
+
+
+Test session log:
+	/Users/zacharyhardin/Desktop/CircleCITest/CircleCi/fastlane/test_output/CircleCi.test_result/2_Test/Diagnostics/CircleCiUITests-A44C6332-8E5A-4B9D-BA61-7C80843EF51B/CircleCiUITests-17A6431B-DEB9-42D8-83F2-3780EE3D159C/Session-CircleCiUITests-2019-01-09_095423-vK5jHK.log
+
