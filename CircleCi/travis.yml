@@ -1,11 +1,8 @@
 os: osx
 
 language: objective-c
-osx_image: xccode10.0
+osx_image: xccode10.1
 xcode_workspace: CircleCi.xcworkspace
 
 script: 
   - fastlane tests
-branches:
-  only:
-  - master
