@@ -8,6 +8,6 @@ class CircleCiUITests: XCTestCase {
     }
 
     func testExample() {
-        XCTAssert(XCUIApplication().staticTexts["Hello World"].waitForExistence(timeout: 2.0))
+        XCTAssert(XCUIApplication().staticTexts["Hello World2"].waitForExistence(timeout: 2.0))
     }
 }
