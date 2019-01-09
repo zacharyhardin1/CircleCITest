@@ -1,0 +1,12 @@
+version: 2
+jobs:
+  build-and-test:
+    macos:
+      xcode: "10.1"
+    steps:
+      - run:
+          name: Build and run tests
+          command: fastlane tests
+          environment:
+            SCAN_DEVICE: iPhone 8
+            SCAN_SCHEME: CircleCi
